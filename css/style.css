@@ -1,0 +1,122 @@
+.navbar{
+    padding-bottom: 0;
+    border-bottom: 2px solid rgb(102, 51, 153);
+}
+nav li {
+    padding: 10px 20px;
+    border: 2px solid rgb(102, 51, 153);
+    /* margin-top: 10px; */
+}
+nav .first-child{
+    margin-left: 100px;
+}
+nav li a:link , nav li a:visited
+{
+    color: rgb(102, 51, 153) !important;
+}
+nav li:hover , nav li:active
+{
+    background-color: rgb(102, 51, 153);
+    color: #FFF !important;
+}
+nav li a:hover , nav li a:active
+{
+    color: #FFF !important;
+}
+
+nav .dropdown-item:hover , nav .dropdown-item:active
+{
+    background-color: rgb(102, 51, 153);
+}
+
+nav .user-icon .fa-user {
+    background-color: rgb(102, 51, 153);
+    padding: 10px 12px;
+    font-size: 24px;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: #FFF;
+}
+nav .fa-sign-out-alt{
+    font-size: 28px;
+    color: rgb(102, 51, 153);
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(102, 51, 153);
+    border-radius: 50%;
+    margin: 10px;
+}
+.carousel-control-prev-icon {
+    background-color: rgb(102, 51, 153);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.first-div h6{
+    color: rgb(102, 51, 153);
+}
+.first-div button
+{
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    width: 100%;
+}
+
+.first-div .considered-button
+{
+    color: #FFF;
+    background-color: rgb(102, 51, 153);
+    font-size: 20px;
+}
+.first-div .timer-button
+{
+    color: #111;
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.third-div .highlights
+{
+    color: #555;
+}
+.third-div ul li
+{
+    margin-top: 15px;
+}
+.third-div ul li a:link , .third-div ul li a:visited
+{
+    color: #777;
+}
+.third-div ul li a:hover , .third-div ul li a:active
+{
+    text-decoration: none;
+}
+.third-div .company
+{
+    color: rgb(102, 51, 153);
+}
+
+@media(max-width: 767px){
+    nav .first-child {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+
+    nav .user-icon {
+        margin: 20px 0px !important;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    nav .first-child {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+
+    nav .user-icon {
+        margin: 20px 0px !important;
+    }
+}
